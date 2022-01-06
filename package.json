@@ -1,0 +1,26 @@
+{
+  "name": "ausjukwa-windicss-presets",
+  "version": "0.0.1",
+  "description": "Personal windicss.config.ts presets",
+  "main": "lib/index.ts",
+  "scripts": {
+    "build": "rm -rf lib && mkdir ./lib && cp -r ./src/index.ts ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuSjukwa/ausjukwa-windicss-presets.git"
+  },
+  "keywords": [
+    "ausjukwa",
+    "windicss"
+  ],
+  "author": "AuSjukwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AuSjukwa/ausjukwa-windicss-presets/issues"
+  },
+  "homepage": "https://github.com/AuSjukwa/ausjukwa-windicss-presets#readme",
+  "dependencies": {
+    "windicss": "^3.4.2"
+  }
+}
