@@ -1,4 +1,4 @@
-# ausjukwa-windicss-presets
+# @ausjukwa/windicss-presets
 windicss.config.ts presets
 windicss配置预设
 

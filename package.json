@@ -1,5 +1,5 @@
 {
-  "name": "ausjukwa-windicss-presets",
+  "name": "@ausjukwa/windicss-presets",
   "version": "0.0.1",
   "description": "Personal windicss.config.ts presets",
   "main": "lib/index.ts",
