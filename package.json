@@ -16,6 +16,9 @@
   ],
   "author": "AuSjukwa",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/AuSjukwa/ausjukwa-windicss-presets/issues"
   },
