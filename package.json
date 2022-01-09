@@ -1,10 +1,14 @@
 {
   "name": "@ausjukwa/windicss-presets",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Personal windicss.config.ts presets",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "rm -rf lib && mkdir ./lib && cp -r ./src/index.ts ./lib"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

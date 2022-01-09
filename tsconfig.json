@@ -1,20 +1,26 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "strict": true,
-    "jsx": "preserve",
+    "lib": ["es6", "dom"],
     "sourceMap": true,
-    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es5",
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": ["esnext", "dom"],
-    "typeRoots": [
-      "./node_modules/@types/",
-      "./node_modules/types",
-      "lib/typings"
-    ],
-    "baseUrl": ".",
-  },
-  "include": ["src/**/*.ts"]
+    "allowJs": false,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noUnusedLocals": false,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "outDir": "lib",
+    "declaration": true
+  }
 }

@@ -13,7 +13,7 @@ yarn add @ausjukwa/windicss-presets -D
 pnpm add @ausjukwa/windicss-presets -D
 ```
 
-## 使用
+### 使用
 ```
 // windicss.config.ts
 
